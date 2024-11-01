@@ -36,6 +36,10 @@ h3{
         padding: 1rem;
     }
 
+    .nav img{
+        width: 40%;
+    }
+
    
     .nav h1{
         font-size: 3rem;
