@@ -1,0 +1,89 @@
+body{
+    margin: 0px;
+    background-color: #CF2B27;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+
+h3{
+    color: #FF9800;
+    text-decoration: underline;
+    font-size: 4rem;
+    margin: 0px;
+    margin-bottom: 1rem;
+    font-weight: 50;
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 960px) {
+
+    .nav{
+        background-color: #FF9800;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.3rem;
+        padding: 1rem;
+    }
+
+   
+    .nav h1{
+        font-size: 3rem;
+        max-width: 100%;
+    }
+
+    .pizzacone{
+        text-align: center;
+        font-size: 2rem;
+        color: white;
+    }
+
+    .menu{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        text-align: left;
+        padding-left: 0.7rem;
+        gap: 8px;
+    }
+
+    li{
+        font-size: 2rem;
+    }
+
+    .menu img{
+        width: 100%;
+    }
+    
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        background-color: #FF9800;
+        padding: 1rem;
+    }
+
+    .preco{
+        text-align: center;
+        color: white;
+        font-family: sans-serif;
+        font-weight: 40;
+        font-size: 4rem;
+        text-decoration: underline;
+    }
+
+    footer img{
+        width: 50px;
+    }
+}
