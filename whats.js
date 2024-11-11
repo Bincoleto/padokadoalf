@@ -4,9 +4,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (/Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
         // Se estiver em um dispositivo móvel
-        whatsappButton.href = `whatsapp://send?phone=${phoneNumber}`;
+        whatsappButton.href = `whatsapp://send?phone=${5514991476856}`;
     } else {
         // Se estiver em um desktop
-        whatsappButton.href = `https://web.whatsapp.com/send?phone=${phoneNumber}`;
+        whatsappButton.href = `https://web.whatsapp.com/send?phone=${5514991476856}`;
     }
 });
